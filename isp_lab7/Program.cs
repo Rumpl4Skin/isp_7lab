@@ -54,7 +54,6 @@ namespace isp_lab7
             return result;
         }
 
-
         public static bool operator >(RationalNumber o1, RationalNumber o2)
         {
             if (o1._whole == o2._whole && o1._natural == o2._natural)
